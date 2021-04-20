@@ -1,1 +1,3 @@
-console.log('mini-cli');
+import 'module-alias/register';
+
+import '@/command'
