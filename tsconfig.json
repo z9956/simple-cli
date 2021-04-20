@@ -6,16 +6,18 @@
     "outDir": "./dist",
     "rootDir": "./src",
 
-    "baseUrl": "",
+    "baseUrl": "./",
     "paths": {
       "@/*": [
         "src/*"
       ]
     },
+    "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "dist"
   ]
 }

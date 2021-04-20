@@ -13,6 +13,9 @@
     "prepublish": "npm run build",
     "deploy": "npm run release && git push --follow-tags origin master && npm publish --access public"
   },
+  "_moduleAliases": {
+    "@": "dist"
+  },
   "author": "9956",
   "license": "ISC",
   "bin": {
