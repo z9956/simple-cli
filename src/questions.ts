@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 import { userInfo } from 'os';
-import { cyan } from 'chalk';
+import { cyan, red } from 'chalk';
 
 import { ELanguage, EProjectConfig } from '@/constans';
 
@@ -42,5 +42,14 @@ export const projectQuestions: Array<inquirer.QuestionCollection> = [
 		name: EProjectConfig.Language,
 		message: cyan('What language do you want to use?'),
 		choices: [ELanguage.Typescript, ELanguage.Javascript],
+	},
+];
+
+export const overrideQuestions = [
+	{
+		type: 'confirm',
+		name: EProjectConfig.Override,
+		message: red('当前目录已存在同名文件，是否删除原文件?'),
+		default: false,
 	},
 ];
