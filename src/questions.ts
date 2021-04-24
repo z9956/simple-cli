@@ -2,7 +2,7 @@ import inquirer from 'inquirer';
 import { userInfo } from 'os';
 import { cyan, red } from 'chalk';
 
-import { ELanguage, EProjectConfig } from '@/constans';
+import { EGithubSource, ELanguage, EProjectConfig } from '@/constans';
 
 export const projectQuestions: Array<inquirer.QuestionCollection> = [
 	{
@@ -51,5 +51,14 @@ export const overrideQuestions = [
 		name: EProjectConfig.Override,
 		message: red('当前目录已存在同名文件，是否删除原文件?'),
 		default: false,
+	},
+];
+
+export const useGitSource = [
+	{
+		type: 'list',
+		name: EProjectConfig.UseGithubSource,
+		message: cyan('Use https or ssh to pull templates?'),
+		choices: [EGithubSource.SSH, EGithubSource.HTTPS],
 	},
 ];

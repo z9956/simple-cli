@@ -1,9 +1,11 @@
 import shell from 'shelljs';
+import inquirer from 'inquirer';
 
 import { InterfaceCLI } from '@/types/cli';
-import inquirer from 'inquirer';
 import { EProjectConfig } from '@/constans';
 import { projectQuestions } from '@/questions';
+import { logErrorAndExit } from '@/utils';
+import { getTemplate } from '@/getTemplate';
 
 export const handleOptions = async (option: InterfaceCLI) => {
 	const { debug, init } = option;
@@ -25,11 +27,13 @@ export const handleOptions = async (option: InterfaceCLI) => {
 		const projectConfig =
 			(await inquirer.prompt<Record<EProjectConfig, string>>(
 				projectQuestions,
-			)) || {};
-		console.log(projectConfig);
+			)) || null;
 
 		console.log('\n> 项目配置信息:');
+		console.log(projectConfig);
+
+		if (projectConfig) await getTemplate(projectConfig);
 	} catch (e) {
-		console.log(e);
+		logErrorAndExit(e);
 	}
 };
