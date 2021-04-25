@@ -38,6 +38,5 @@ export const createProject = async (
 	const cmd = installCmd();
 	exec(cmd);
 
-	blue('> 项目创建成功');
-	console.log('');
+	blue('> 项目创建成功\n');
 };

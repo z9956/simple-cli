@@ -39,7 +39,6 @@ export const getTemplate = async (
 			});
 		},
 	});
-	console.log('');
 
 	await createProject(projectConfig, projectPath);
 };

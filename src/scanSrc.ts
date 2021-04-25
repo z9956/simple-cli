@@ -24,9 +24,11 @@ export const generateTemplate = (
 
 			switch (fileExtname) {
 				case '.ts':
+				case '.tsx':
 					template.Typescript.push(file);
 					break;
 				case '.js':
+				case '.jsx':
 					template.Javascript.push(file);
 					break;
 				case '.sass':
