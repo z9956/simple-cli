@@ -11,7 +11,7 @@
 		"dev": "tsc --watch",
 		"clean": "rimraf dist",
 		"prepublish": "npm run build",
-		"deploy": "npm run release && git push --follow-tags origin master && npm publish --access public"
+		"deploy": "npm run release && git push --follow-tags origin main && npm publish --access public"
 	},
 	"_moduleAliases": {
 		"@": "dist"
