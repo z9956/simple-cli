@@ -1,6 +1,6 @@
 {
 	"name": "@9956/mini-cli",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"description": "",
 	"main": "bin/mini",
 	"scripts": {
@@ -16,7 +16,7 @@
 	"_moduleAliases": {
 		"@": "dist"
 	},
-	"author": "9956",
+	"author": "z9956",
 	"license": "ISC",
 	"bin": {
 		"mini": "bin/mini"
