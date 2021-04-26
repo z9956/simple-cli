@@ -1,6 +1,6 @@
 {
-	"name": "@z9956/react-mini-cli",
-	"version": "1.0.2",
+	"name": "@9956/mini-cli",
+	"version": "1.0.3",
 	"description": "",
 	"main": "bin/mini",
 	"scripts": {
@@ -16,7 +16,7 @@
 	"_moduleAliases": {
 		"@": "dist"
 	},
-	"author": "z9956",
+	"author": "9956",
 	"license": "ISC",
 	"bin": {
 		"mini": "bin/mini"
