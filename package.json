@@ -1,6 +1,6 @@
 {
-	"name": "@z9956/mini-cli",
-	"version": "1.0.5",
+	"name": "z9956-mini-cli",
+	"version": "1.0.6",
 	"description": "",
 	"main": "bin/mini",
 	"scripts": {
