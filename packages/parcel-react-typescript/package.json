@@ -1,12 +1,15 @@
 {
 	"name": "@zh9956/parcel-react-typescript",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"author": "9956 <zhz995617@gmail.com>",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/z9956/mini-cli.git",
 		"directory": "packages/parcel-react-typescript"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"scripts": {
 		"dev": "parcel public/index.html --open --no-cache",
