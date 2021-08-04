@@ -1,0 +1,24 @@
+{
+	"name": "@zh9956/parcel-react-typescript",
+	"version": "1.0.0",
+	"author": "9956 <zhz995617@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/z9956/mini-cli.git",
+		"directory": "packages/parcel-react-typescript"
+	},
+	"scripts": {
+		"dev": "parcel public/index.html --open --no-cache",
+		"build": "parcel build public/index.html"
+	},
+	"devDependencies": {
+		"@types/react": "^17.0.11",
+		"@types/react-dom": "^17.0.8",
+		"parcel": "^2.0.0-beta.3.1"
+	},
+	"dependencies": {
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2"
+	}
+}
