@@ -5,7 +5,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/z9956/mini-cli.git",
+		"url": "https://github.com/z9956/simple-cli.git",
 		"directory": "packages/parcel-react-typescript"
 	},
 	"publishConfig": {
