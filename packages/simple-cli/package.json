@@ -10,6 +10,9 @@
 		"url": "https://github.com/z9956/simple-cli.git",
 		"directory": "packages/simple-cli"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"main": "bin/simple",
 	"_moduleAliases": {
 		"@": "dist"
