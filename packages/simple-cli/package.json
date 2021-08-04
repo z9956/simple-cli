@@ -1,0 +1,59 @@
+{
+	"name": "@zh9956/simple-cli",
+	"version": "0.0.4-alpha.0",
+	"description": "> TODO: description",
+	"author": "9956 <zhz995617@gmail.com>",
+	"homepage": "https://github.com/z9956/simple-cli#readme",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/z9956/simple-cli.git",
+		"directory": "packages/simple-cli"
+	},
+	"main": "bin/simple",
+	"_moduleAliases": {
+		"@": "dist"
+	},
+	"directories": {
+		"lib": "lib",
+		"test": "__tests__"
+	},
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"build": "npm run clean && tsc",
+		"clean": "rimraf dist",
+		"deploy": "npm run release && git push --follow-tags origin main && npm publish --access public",
+		"dev": "tsc --watch",
+		"link": "npm link --force",
+		"prepare": "husky install",
+		"release": "standard-version",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"babel-cli": "^6.26.0",
+		"chalk": "^4.1.0",
+		"commander": "^6.1.0",
+		"git-clone": "^0.1.0",
+		"inquirer": "^7.3.3",
+		"mem-fs": "^1.2.0",
+		"mem-fs-editor": "^7.0.1",
+		"module-alias": "^2.2.2",
+		"ora": "^5.1.0",
+		"regenerator-runtime": "^0.13.7",
+		"shelljs": "^0.8.4"
+	},
+	"devDependencies": {
+		"@types/inquirer": "^7.3.1",
+		"@types/mem-fs": "^1.1.2",
+		"@types/mem-fs-editor": "^7.0.0",
+		"@types/shelljs": "^0.8.8",
+		"rimraf": "^3.0.2",
+		"standard-version": "^9.0.0",
+		"typescript": "^4.0.3"
+	},
+	"bugs": {
+		"url": "https://github.com/z9956/simple-cli/issues"
+	}
+}
