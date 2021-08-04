@@ -16,5 +16,5 @@
 
 ## Links
 
-- [zx](https://github.com/google/zx)
+- [lerna](https://github.com/lerna/lerna)
 - [BreathlessWay/mini-cli](https://github.com/BreathlessWay/mini-cli)
