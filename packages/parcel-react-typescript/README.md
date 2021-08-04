@@ -1,1 +1,1 @@
-# `parcel-react-typescript`
+# parcel-react-typescript
