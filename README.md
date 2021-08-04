@@ -1,5 +1,20 @@
->参考BreathlessWay mini-cli项目
+# mini-cli
 
-[BreathlessWay仓库地址指路](https://github.com/BreathlessWay/mini-cli)
+### A mini cli
 
-[BreathlessWay博客地址指路](http://breathlessway.com/read/detail/60791ec14aebf60064f670ed)
+## Install
+
+```
+    npm i @zh9956/mini-cli -g
+```
+
+## Usage
+
+```
+    mini -i <project>
+```
+
+## Links
+
+- [zx](https://github.com/google/zx)
+- [BreathlessWay/mini-cli](https://github.com/BreathlessWay/mini-cli)
