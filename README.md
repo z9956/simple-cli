@@ -1,20 +1,20 @@
-# mini-cli
+# simple-cli
 
-### A mini cli
+### A simple cli
 
 ## Install
 
 ```
-    npm i @zh9956/mini-cli -g
+    npm i @zh9956/simple-cli -g
 ```
 
 ## Usage
 
 ```
-    mini -i <project>
+    simple -i <project>
 ```
 
 ## Links
 
 - [lerna](https://github.com/lerna/lerna)
-- [BreathlessWay/mini-cli](https://github.com/BreathlessWay/mini-cli)
+- [BreathlessWay/simple-cli](https://github.com/BreathlessWay/mini-cli)
