@@ -2,7 +2,7 @@
 	"npmClient": "yarn",
 	"useWorkspaces": true,
 	"packages": ["packages/*"],
-	"version": "0.0.4-alpha.0",
+	"version": "0.0.5-alpha.0",
 	"changelog": {
 		"repo": "z9956/simple-cli",
 		"labels": {
