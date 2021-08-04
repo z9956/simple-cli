@@ -1,7 +1,7 @@
 {
 	"name": "@zh9956/simple-cli",
 	"version": "0.0.4-alpha.0",
-	"description": "> TODO: description",
+	"description": "",
 	"author": "9956 <zhz995617@gmail.com>",
 	"homepage": "https://github.com/z9956/simple-cli#readme",
 	"license": "MIT",
@@ -14,12 +14,15 @@
 	"_moduleAliases": {
 		"@": "dist"
 	},
+	"bin": {
+		"simple": "bin/simple"
+	},
 	"directories": {
-		"lib": "lib",
+		"lib": "dist",
 		"test": "__tests__"
 	},
 	"files": [
-		"lib"
+		"dist"
 	],
 	"scripts": {
 		"build": "npm run clean && tsc",
@@ -27,7 +30,6 @@
 		"deploy": "npm run release && git push --follow-tags origin main && npm publish --access public",
 		"dev": "tsc --watch",
 		"link": "npm link --force",
-		"prepare": "husky install",
 		"release": "standard-version",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
