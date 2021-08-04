@@ -15,7 +15,6 @@
 		"dev": "tsc --watch",
 		"link": "npm link --force",
 		"prepare": "husky install",
-		"prepublish": "npm run build",
 		"release": "standard-version",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
