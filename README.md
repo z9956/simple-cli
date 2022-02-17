@@ -17,4 +17,4 @@
 ## Links
 
 - [lerna](https://github.com/lerna/lerna)
-- [BreathlessWay/simple-cli](https://github.com/BreathlessWay/mini-cli)
+- [BreathlessWay/mini-cli](https://github.com/BreathlessWay/mini-cli)
